@@ -4,3 +4,5 @@
   <li> title : <%= @article.title %> </li>
   <li> description : <%= @article.description %> </li>
 </ul>
+<%= link_to "Edit Articles", edit_article_path(@article) %> </br>
+<%= link_to "Back to Articles", articles_path %>
